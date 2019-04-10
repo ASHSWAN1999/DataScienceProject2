@@ -16,7 +16,7 @@ At the same time, the number of deaths by opioid poisoning has risen dramaticall
 
 Suicide rates have also been steadily increasing, with 10.4 deaths per 100,000 in 1999 and 14.5 deaths per 100,000 in 2017.
 
-[]!(https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/suicide_over_time.png)
+![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/suicide_over_time.png)
 
 These factors are important to examine with regards to life expectancy because they cause higher death rates among a younger, otherwise healthy population. These deaths have a larger effect on the Average Life Expectancy than increased death rates in an elderly population, and it indicates alarming threats to individuals of all ages, including our youth. 
 
