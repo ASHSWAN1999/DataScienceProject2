@@ -51,7 +51,7 @@ Because the CDC’s dataset does not contain individual age population estimates
 
 For more information on the calculations, please refer to the [project’s notebook](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/project2.ipynb).
 
-[]!(https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/true_vs_cal.png)
+![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/true_vs_cal.png)
 
 This figure plots ALEs reported by the NCHS against those calculated by our life expectancy function. This graph is visual validation for our calculations, as it traces the true ALE very closely, particularly in the region where the trend shifts from positive to negative. 
 
