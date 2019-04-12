@@ -16,11 +16,15 @@ Meanwhile, the number of deaths by opioid poisoning have risen dramatically, and
 Suicide rates have also been steadily increasing, with 10.4 deaths per 100,000 in 1999 and 14.5 deaths per 100,000 in 2017.
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/suicide_over_time.png)
+
 We have chosen these factors to examine as they capture premature deaths among a younger, otherwise healthy population. These deaths have a larger effect on the Average Life Expectancy than increased death rates in an elderly population, and it indicates alarming threats to individuals of all ages, including our youth. 
 
 This prompted the question,
 
 _**What are the effects of the Opioid Crisis and rising suicide rates on the Average Life Expectancy in the US?**_
+
+ 
+ 
 
 
 ## **Methodology**
