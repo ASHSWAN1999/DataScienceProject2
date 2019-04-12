@@ -5,11 +5,11 @@ Sabrina Pereira & Ashley Swanson
 
 ## **Introduction**
 
-In recent years, a downward trend in the Average Life Expectancy in the United States has emerged.
+In recent years, a downward trend in the Average Life Expectancy in the United States has emerged. This is a distressing shift; the last time life expectancy decreased was during World War II. 
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/ALE.png)
 
-At the same time, the number of deaths by opioid poisoning has risen dramatically, and suicides have been steadily rising. In 1999, there were 6.0 opioid poisoning-related deaths for every 100,000 people - by 2017, this had risen to 21.6 deaths per 100,000. What is known as the "Opioid Epidemic" or "Opioid Crisis" was declared a Public Health Emergency by the Trump Administration's Health and Human Services in 2017.
+Meanwhile, the number of deaths by opioid poisoning have risen dramatically, and suicides have been steadily rising. In 1999, there were 6.0 opioid poisoning-related deaths for every 100,000 people - by 2017, this had risen to 21.6 deaths per 100,000. What is known as the "Opioid Epidemic" or "Opioid Crisis" was declared a Public Health Emergency by the Trump Administration's Health and Human Services in 2017.
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/opioid_over_time.png)
 
@@ -17,11 +17,14 @@ Suicide rates have also been steadily increasing, with 10.4 deaths per 100,000 i
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/suicide_over_time.png)
 
-These factors are important to examine with regards to life expectancy because they cause higher death rates among a younger, otherwise healthy population. These deaths have a larger effect on the Average Life Expectancy than increased death rates in an elderly population, and it indicates alarming threats to individuals of all ages, including our youth. 
+We have chosen these factors to examine as they capture premature deaths among a younger, otherwise healthy population. These deaths have a larger effect on the Average Life Expectancy than increased death rates in an elderly population, and it indicates alarming threats to individuals of all ages, including our youth. 
 
 This prompted the question,
 
 _**What are the effects of the Opioid Crisis and rising suicide rates on the Average Life Expectancy in the US?**_
+
+ 
+ 
 
 
 ## **Methodology**
@@ -57,35 +60,28 @@ This figure plots ALEs reported by the NCHS against those calculated by our life
 
 Around the year 2003, we see that our model for the ALE differs from the true ALE more than any other year, so our results for modeling what the ALE would look like under our different scenarios will not be as accurate around this year as they would be for the other given years. However, we are more concerned with the downward trend in the ALE in the most recent years, and our model is a very good fit for the most recent years. Beyond 2007, all estimates are within 0.05 of the reported values.
 
-The close fit of our model indicates that we can create a good estimate of what the life expectancy would look like when we remove the effects of a given cause of death.
+The close fit of our model indicates that we can make a good estimate of what the life expectancy would look like when we remove the effects of a given cause of death.
 
 
 ## **Results**
 
+So, to revisit our original question: _**What are the effects of the Opioid Crisis and rising suicide rates on the Average Life Expectancy in the US?**_
+
 ### Opioid-Related Deaths
 
-Graphed below are the calculated ALE's from our model and the Zero-Opioid Scenario ALE's. In 1999, the difference between the Zero-Opioid ALE and the calculated ALE was .15 years (76.92 years compared to the calculated 76.77). 
+Graphed below are the ALEs calculated from the actual population data and the Zero-Opioid Scenario ALEs. 
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/zero_opioid.png)
 
-However, in the most recent years, the gap between the two plots is wider than it has ever been. According to the model, the ALE in 2017 would have been about .60 years higher if there had been no opioid-related deaths (79.22 years, compared to the calculated 78.62 years). Similarly, in 2016 the ALE would have been .55 years higher in a Zero-Opioid Scenario (79.18 years compared to the calculated 78.64). It is only recently that these deaths have created an observable effect this large. 
+Before the year 2007, the Zero-Opioid ALEs are on average about 0.22 years higher than the calculated ALEs. However, in the most recent years, the gap between the two plots is larger than it has ever been. From the model, the ALE in 2017 would have been about 0.60 years higher if there had been no opioid-related deaths (79.22 years, compared to the calculated 78.62 years). This graph provides strong evidence that if we did not have opioid-related deaths, ALE in the United States would not be decreasing. 
 
 ### Deaths by Suicide 
 
-Here, we plot the calculated ALE's from our model and the Zero-Suicide Scenario ALE's. In 1999, the difference between the Zero-Suicide ALE and the observed ALE was .26 years (77.04 years compared to the calculated 78.64). 
+Here, we plot the calculated ALEs from our model and the Zero-Suicide Scenario ALEs.
 
 ![](https://github.com/ASHSWAN1999/DataScienceProject2/blob/master/figures/zero_suicide.png)
 
-The gap between the two plots widened slightly over time. According to the model, if there had been no deaths by suicide, the ALE in 2017 would have been about .38 years higher (79.00 years, compared to the observed 78.6 years) while in 2016 the ALE would have been .36 years higher (79.00 years compared to the calculated 78.62 years). 
+Before the year 2007, the Zero-Suicide ALEs are on average about 0.27 higher than the calculated ALEs. When compared to the last graph, this tells us suicides are historically a larger factor in lowering the life expectancy than opioid-related deaths. However, around the year 2011, suicides are no longer the larger factor of the two. If there had been no deaths by suicide, the ALE in 2017 would have been about 0.38 years higher (79.00 years, compared to the observed 78.6 years). This graph provides little evidence that rising suicide rates have contributed to the recent downturn in ALE.
 
+To reiterate, the Average Life Expectancy is a robust statistic that takes the vitality data from all people in the United States to produce a single number. The fact that deaths by opioid overdose are causing the statistic to drop in a country as developed as the United States indicates that preventable premature deaths are an alarming threat to public health.
 
-## **Conclusion**
-
-So, _**What are the effects of the Opioid Crisis and rising suicide rates on the Average Life Expectancy in the US?**_
-
-Taking all of this into account, it appears suicides are historically a larger factor in lowering the life expectancy than opioid-related deaths. In the earlier years, the ALE's for a Zero-Suicide Scenario differ much more from the actual ALE than the ALE's for a Zero-Opioid Scenario. 
-However, since the deaths by suicide have lowered the ALE at a relatively constant rate across years, we see something that looks more like a plot translated upwards rather than a change in trend, telling us these deaths were ultimately not a large factor in the downturn of the ALE. 
-
-It is the opioid-related deaths that seem to have affected the ALE so much that the trend has turned downwards. Unlike the Zero-Suicide Scenario graph, in the Zero-Opioid Scenario graph, we see the upward trend leveling off rather than reversing to a downward trend. Without the opioid epidemic, life expectancy in the United States would not be decreasing. 
-
-The definition of the ALE is the number of years that a newborn is expected to live. The fact that life expectancy is decreasing, in great part due to the rising opioid overdoses, tells us that our future children are at increasing risk. Our report is further evidence the Opioid Crisis truly is a Public Health Emergency and that action must be taken to lower the death count. 
